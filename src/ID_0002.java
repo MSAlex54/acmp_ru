@@ -8,13 +8,11 @@
 //Выходные данные
 //В единственную строку выходного файла OUTPUT.TXT нужно вывести одно целое число — сумму чисел, расположенных между 1 и N включительно.
 
-import java.io.*;
 import java.util.*;
 
 public class ID_0002 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        PrintWriter out = new PrintWriter(System.out);
         int result = 0;
         int start = 0;
         int finish = 0;
